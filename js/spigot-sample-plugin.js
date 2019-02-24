@@ -1,2 +1,3 @@
-var test = 5;
-console.log(test);
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
