@@ -8,6 +8,6 @@ function promptUser(){
 			const urlParams = new URLSearchParams(window.location.search);
 			const sourceParam = urlParams.get('source');
 
-		  jQuery( "#article" ).after( '<div id="casestudy">'+sourceParam+'</div>' );
+		  jQuery( "#article" ).after( '<div id="casestudy"><b>'+sourceParam+'</b></div>' );
 		}
 }
